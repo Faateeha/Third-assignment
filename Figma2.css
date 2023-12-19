@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    width: 100%;
+    height: 1170px;
+    background: rgba(245, 248, 250, 1);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    height: 73px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+main {
+    display: flex;
+    width: 892px;
+    height: 570px;
+    margin-top: 186px;
+    margin-left: 262px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px, 6px, 6px, 0px;
+}
+
+.wrappper1 {
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.navigation {
+    width: 476px;
+    height: 40px;
+    margin-top: 28px;
+    margin-right: 15px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgba(29, 44, 60, 1);
+    font-weight: 700;
+    font-family: "lato";
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: -0.01px;
+}
+.navigation a:hover {
+    color: rgba(100, 110, 122, 1)
+}
+
+.one {
+    width: 1358px;
+    height: 2px;
+    margin-top: 30px;
+    color: rgba(224, 230, 234, 1);
+    margin-inline: 40px;
+    margin-bottom: 35px;
+
+}
+
+.btn {
+    width: 91px;
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 25px;
+    font-weight: 700;
+    font-family: "lato";
+    font-size: 14px;
+    color: rgba(29, 44, 60, 1);
+    line-height: 16.8px;
+    letter-spacing: -0.01px;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 39px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.check {
+    width: 550px;
+
+}
+
+.wrapper2 {
+    background: rgba(17, 121, 191, 1);
+    width: 312px;
+    height: 570px;
+    top: 87px;
+    padding-top: 15px;
+    padding-inline: 25px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.two {
+    width: 650px;
+    height: 2px;
+    margin-top: 28px;
+    margin-bottom: 18px;
+    margin-left: -48px;
+    color: rgba(245, 247, 250, 1);
+}
+
+#num {
+   width: 30px; 
+   height: 30px;
+   border-radius: 50px;
+   border: 1px solid rgba(84, 139, 197, 1);
+   font-family: "lato";
+   font-weight: 700;
+   line-height: 19.2px;
+   text-align: center;
+   font-size: 1rem;
+   margin-right: 5px;
+}
+
+h3 span {
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: -0.16px;
+    color: rgba(29, 44, 60, 1);
+    margin-left: 5px;
+
+}
+
+label {
+    display: block;
+}
+
+#frm1 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 227px;
+    height: 60px;
+
+    input {
+        height: 36px;
+    }
+}
+
+#frm2 {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 227px;
+    height: 60px;
+}
+
+#frm3 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 370px;
+    height: 60px;
+}
+
+input {
+    background-color: rgba(237, 239, 242,1);
+    border: none;
+    height: 32px;
+}
+input:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgba(100, 110, 122, 1);
+}
+
+.three {
+    width: 650px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left: -48px;
+    color: rgba(245, 247, 250, 1);
+}
+
+#frm4 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 483px;
+    height: 60px;
+}
+
+.four {
+    width: 650px;
+    height: 2px;
+    margin-bottom: 22px;
+    margin-left: -48px;
+    color: rgba(245, 247, 250, 1);
+}
+
+.btn-buy {
+    width: 483px;
+    height: 52px;
+    background-color: rgba(3, 142, 125, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+}
+.btn-buy:hover {
+    cursor: pointer;
+}
+
+.pt {
+    margin-left: 100px;
+    font-size: 14px;
+    letter-spacing: -0.01px;
+
+    .fa {
+        color: rgba(84, 139, 197, 1);
+        width: 20px;
+        height: 20px;
+    }
+    #sp {
+        color: rgba(29, 44, 60, 1);
+        font-family: "lato";
+        font-weight: 700;
+        line-height: 16.8px;
+        
+    }
+    #an {
+        font-family: "lato";
+        font-weight: 400;
+        line-height: 16.8px;
+        color: rgba(100, 110, 122, 1);
+    }
+    a {
+        font-family: "roboto";
+        font-weight: 400;
+        line-height: 16.41px;
+    }
+}
+
+.stripe {
+    width: 110px;
+    height: 20.1px;
+    background-color: rgba(218, 218, 218, 1);
+    margin-left: 210px;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: white;
+}
+
+.cont {
+    
+    font-family: "lato";
+}
+
+sup {
+   
+   font-weight: 300; 
+   font-size: 20px;
+   vertical-align: super;
+   letter-spacing: -0.01px;
+   
+
+}
+
+sub {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.nine {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: -0.01px;
+}
+
+#phn {
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    margin-top: 15px;
+
+}
+
+#ptn {
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.01px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.aa {
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.01px; 
+    color: rgba(255, 255, 255, 1);
+}
+
+.five {
+    width: 224px;
+    height: 2px;
+    opacity: 20.05%;
+    color: rgba(255, 255, 255, 1);
+    margin-block: 25px;
+}
+
+.ftp {
+    font-family: "lato";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+}
+
+
+p img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+footer {
+    width: 867px;
+    height: 17px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "lato";
+    line-height: 16.8px;
+    margin-left: 630px;
+    margin-top: 10px;
+    color: rgba(99, 107, 111, 1);
+
+}
+.ftr {
+    color: rgba(49, 112, 143, 1);
+}
+
